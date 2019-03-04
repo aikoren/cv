@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  color: #faf096;
+  margin: 0 auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #faf096;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+h3 {
+  color: #fccb8f;
+  font-family: 'Nunito', sans-serif;
+}
+
+hr {
+  border: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  width: 4%;
+  border-width: thick;
+  margin-top: 50px;
+}
+
+/* classes */
+.top-container {
+  background-color: #f9989f;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-pic {
+  height: 300px;
+  clip-path: circle(41.8% at 50% 50%);
+}
+
+.poolish-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.nails-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cupcake-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills {
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+.skill-row {
+  margin-top: 100px;
+}
+
+.hobbies-h2 {
+  margin-top: 30px;
+}
+
+.bottomhr {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  margin-top: 100px;
+  height: 150px;
+  background-color: #f9989f
+}
+
+.footer-link {
+  position: relative;
+  top: 40px;
+  margin: 0 20px 0 20px;
+  color: #faf096;
+  text-decoration: none;
+}
+
+.copyright {
+  position: relative;
+  top: 60px;
+  color: #EAF6F6;
+}
+
+.butn {
+  background: #fa6175;
+  background-image: -webkit-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -moz-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -ms-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -o-linear-gradient(top, #fa6175, #ffa647);
+  background-image: linear-gradient(to bottom, #fa6175, #ffa647);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #fa6175;
+  background-image: -webkit-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -moz-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -ms-linear-gradient(top, #fa6175, #ffa647);
+  background-image: -o-linear-gradient(top, #fa6175, #ffa647);
+  background-image: linear-gradient(to bottom, #fa6175, #ffa647);
+  text-decoration: none;
+}
+
+.follow-text {
+  margin-bottom: 100px;
+}
